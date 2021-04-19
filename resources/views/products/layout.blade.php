@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <h1 class="title">CRUD app Final sprint</h1>
+    <h1 style="background: -webkit-linear-gradient(#eee, #ccccff);text-align:center;">CRUD app Final sprint</h1>
     <div class="container">
         <br>
         @yield('content')

@@ -7,7 +7,7 @@
             <h2> Show Product</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
+            <a style="text-align:center class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
         </div>
     </div>
 </div>

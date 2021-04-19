@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('products', ProductController::class);
+
+Route::any('/{anything}', function(){ 
+    print("Nothing is here unfortunately"); 
+})->where('anything', '.*');
+ 
